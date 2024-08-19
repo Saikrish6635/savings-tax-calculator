@@ -55,7 +55,7 @@ document.getElementById("calculateButton").addEventListener("click", function() 
 
 // Dummy functions for other calculations (replace with actual logic)
 function calculateExpenses(salary) {
-    return salary * 0.4; // Example: 40% for expenses
+    return salary * 0.5; // Example: 50% for expenses
 }
 
 function calculatePersonalExpenses(salary) {
@@ -63,7 +63,7 @@ function calculatePersonalExpenses(salary) {
 }
 
 function calculateInvestments(salary) {
-    return salary * 0.3; // Example: 30% for investments
+    return salary * 0.2; // Example: 20% for investments
 }
 
 function calculateFixedDeposit(investments) {
